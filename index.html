@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tour & Travels</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <header>
+      <div id="menu_bar" class="fas fa-bars"></div>
+      <a href="#" class="logo"> <span>T</span>ravel</a>
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+      </nav>
+      <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+      </div>
+
+      <form action="" class="search_bar_container">
+        <input type="search" id="search-bar" placeholder="search here..." />
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
+    </header>
+    <div class="login_form_container">
+      <i class="fas fa-times" id="form-close"></i>
+
+      <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email" />
+        <input type="password" class="box" placeholder="enter your password" />
+        <input type="submit" value="login now" class="btn" />
+        <input type="checkbox" id="remember" />
+        <label for="remember">Remember me</label>
+        <p>forget password? <a href="#">Click here</a></p>
+        <p>Don't have and account? <a href="#">Register now</a></p>
+      </form>
+    </div>
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Traveling is worthwhile</h3>
+        
+        <p style="background-color: #022527;">Discover new places with us. Take Only Memories.....Leave the Footprints..!!!</p> 
+        <a href="#" class="btn">Discover More</a>
+      </div>
+
+      <div class="controls">
+        <span class="vid-btn active" data-src=""></span>
+        <span class="vid-btn" data-src="C:\Users\singh\OneDrive\Desktop\T&T\pexels_videos_2146395 (2160p).mp4"></span>
+        <span class="vid-btn" data-src=""></span>
+        <span class="vid-btn" data-src=""></span>
+        <span class="vid-btn" data-src=""></span>
+      </div>
+
+      <div class="video_container">
+        <video src="pexels-anurag-raj-10100717 (1440p).mp4" id="videoslider" loop autoplay muted></video>
+      </div>
+    </section>
+  </body>
+  <section class="book_now" id="book">
+    <h1 class="heading">
+      <span>b</span>
+      <span>o</span>
+      <span>o</span>
+      <span>K</span>
+      <span class="space"></span>
+      <span>n</span>
+      <span>o</span>
+      <span>w</span>
+    </h1>
+    <div class="row">
+      <div class="image">
+        <img src="" alt="" />
+      </div>
+
+      <form action="">
+        <div class="inputBox">
+          <h3>Where to</h3>
+          <input type="text" placeholder="place name" />
+        </div>
+        <div class="inputBox">
+          <h3>How many</h3>
+          <input type="number" placeholder="number of guests" />
+        </div>
+        <div class="inputBox">
+          <h3>Arrivals</h3>
+          <input type="date" />
+        </div>
+        <div class="inputBox">
+          <h3>Leaving</h3>
+          <input type="date" />
+        </div>
+
+        <input type="submit" class="btn" value="book now" />
+      </form>
+    </div>
+  </section>
+  <section class="packages" id="packages">
+    <h1 class="heading">
+      <span>Packages</span>
+    </h1>
+    <div class="box_container">
+      <div class="box">
+        <img src="Delhi_images.jpg" alt="image" />
+        <div class="content">
+          <h3><i class="fas fa-map-marker-alt"></i> Delhi</h3>
+
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="price">$90.00 <span>$120.00</span></div>
+          <a href="#" class="btn">book now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="Chennai_images.jpg" alt="image" />
+        <div class="content">
+          <h3><i class="fas fa-map-marker-alt"></i> Chennai</h3>
+
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="price">$90.00 <span>$120.00</span></div>
+          <a href="#" class="btn">book now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="Mumbai_images.webp" alt="image" />
+        <div class="content">
+          <h3><i class="fas fa-map-marker-alt"></i> Mumbai</h3>
+
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="price">$90.00 <span>$120.00</span></div>
+          <a href="#" class="btn">book now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="Banglore_images.jpg" alt="image" />
+        <div class="content">
+          <h3><i class="fas fa-map-marker-alt"></i> Banglore</h3>
+
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="price">$90.00 <span>$120.00</span></div>
+          <a href="#" class="btn">book now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="Hyderabad_images.jpg" alt="image" />
+        <div class="content">
+          <h3><i class="fas fa-map-marker-alt"></i> Hyderabad</h3>
+
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="price">$90.00 <span>$120.00</span></div>
+          <a href="#" class="btn">book now</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="Pune_images.jpg" alt="image" />
+        <div class="content">
+          <h3><i class="fas fa-map-marker-alt"></i> Pune</h3>
+
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="price">$90.00 <span>$120.00</span></div>
+          <a href="#" class="btn">book now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="services" id="services">
+
+    <h1 class="heading">
+        <span>services</span>
+    
+    </h1>
+
+    <div class="box_container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>Affordable Hotels</h3>
+            
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>Speacial Foods and Drinks</h3>
+           
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Safty guide</h3>
+            
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>All Around the India</h3>
+            
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>Fastest travel</h3>
+            
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>Adventures</h3>
+           
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>Gallery</span>
+      
+    </h1>
+    <div class="box_container">
+
+      <div class="box">
+          <img src="Place_images.jpg" alt="image">
+          <div class="content">
+              <h3>Amazing Places</h3>
+              
+              <a href="#" class="btn">see more</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="Place_image2.jpg" alt="image">
+          <div class="content">
+              <h3>Amazing Places</h3>
+              
+              <a href="#" class="btn">see more</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="image5.jpg" alt="image">
+          <div class="content">
+              <h3>Amazing Places</h3>
+              
+              <a href="#" class="btn">see more</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="images4.jpg" alt="image">
+          <div class="content">
+              <h3>Amazing Places</h3>
+              
+              <a href="#" class="btn">see more</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="lotus_image.jpg" alt="image">
+          <div class="content">
+              <h3>Amazing Places</h3>
+              
+              <a href="#" class="btn">see more</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="tourist-places-in-mumbai1.jpg" alt="image">
+          <div class="content">
+              <h3>Amazing Places</h3>
+              
+              <a href="#" class="btn">see more</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="images3.jpg" alt="image">
+          <div class="content">
+              <h3>Amazing Places</h3>
+              
+              <a href="#" class="btn">see more</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="images2.jpg" alt="image">
+          <div class="content">
+              <h3>Amazing Places</h3>
+              
+              <a href="#" class="btn">see more</a>
+          </div>
+      </div>
+
+      </div>
+
+  </div>
+
+</section>
+<section class="review" id="review">
+
+  <h1 class="heading">
+      <span>review</span>
+    
+  </h1>
+
+  <div class="swiper_container review_slider">
+
+      <div class="swiper_wrapper">
+
+          <div class="swiper_slide">
+              <div class="box">
+                  <img src="" alt="">
+                  <h3>Diverse Culture</h3>
+                  
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper_slide">
+              <div class="box">
+                  <img src="" alt="">
+                  <h3>Glorified India</h3>
+                  
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper_slide">
+              <div class="box">
+                  <img src="" alt="">
+                  <h3>Elegent Experiences</h3>
+                  
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper_slide">
+              <div class="box">
+                  <img src="" alt="">
+                
+                  <h3>Nice</h3>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+
+  </div>
+
+</section>
+<section class="contact" id="contact">
+
+  <h1 class="heading">
+      <span>contact</span>
+   
+  </h1>
+
+  <div class="box_container">
+
+      <div class="image">
+          <img src="" alt="">
+      </div>
+
+      <form action="">
+          <div class="inputBox">
+              <input type="text" placeholder="name">
+              <input type="email" placeholder="email">
+          </div>
+          <div class="inputBox">
+              <input type="number" placeholder="number">
+              <input type="text" placeholder="subject">
+          </div>
+          <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+          <input type="submit" class="btn" value="send message">
+      </form>
+
+  </div>
+
+</section>
+<section class="footer">
+
+  <div class="box_container">
+
+      <div class="box">
+          <h3>about us</h3>
+          
+      </div>
+      <div class="box">
+          <h3>Locations</h3>
+          <a href="#">Delhi</a>
+          <a href="#">Mumbai</a>
+          <a href="#">Hyderabad</a>
+          <a href="#">Pune</a>
+      </div>
+      <div class="box">
+          <h3>Links</h3>
+          <a href="#">home</a>
+          <a href="#">book</a>
+          <a href="#">packages</a>
+          <a href="#">services</a>
+          <a href="#">gallery</a>
+          <a href="#">review</a>
+          <a href="#">contact</a>
+      </div>
+       <div class="box">
+          <h3>follow me</h3>
+     
+      <a href="linkedin.com/in/swati-singh-28ss02" target="_blank">Linkedin</a><br>
+      
+      </div>
+
+
+
+</section>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+<script src="script.js"></script>
+
+</body>
+
+
+
+
+</html>
